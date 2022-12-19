@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8</title>
+</head>
+<body>
+    <script>
+        let tramos = 1, sumatoria=0, tiempo=0;
+        while(tramos != 0){
+            tramos = parseFloat(prompt("dame el valor del tramo"));
+            console.log("tramo:",tramos);
+            sumatoria = sumatoria + tramos;
+        }
+        tiempo = sumatoria/60;
+        console.log("El tiempo del viaje fue: ",tiempo.toFixed(2));
+    </script>
+</body>
+</html>

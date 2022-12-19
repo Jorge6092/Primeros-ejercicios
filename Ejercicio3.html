@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <script>
+        let num, divisor, cosiente, resto;
+
+        num = parseInt(prompt("Dame el numero que quieres dividir"));
+        divisor = parseInt(prompt("Dame el divisor:"));
+
+        cosiente = num / divisor;
+        resto = num % divisor; 
+
+        if(cosiente - Math.floor(cosiente) == 0){
+            console.log("Es exacta");
+        }else{
+            console.log("No es exacta");
+        }
+
+        console.log("cosiente: ",cosiente);
+        console.log("resto: ",resto);
+
+    </script>
+</body>
+</html>

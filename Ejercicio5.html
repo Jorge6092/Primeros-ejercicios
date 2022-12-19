@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+</head>
+<body>
+    <script>
+        let edad = parseInt(prompt("Dame tu edad"));
+        let estatura = parseFloat(prompt("dame tu estatura en metros"));
+        let peso = parseFloat(prompt("Dame tu peso en kg"));
+
+        let IMC = peso/estatura;
+
+        if(edad < 45){
+            if(IMC < 22.0){
+                console.log("bajo");
+            }else{
+                console.log("Medio");
+            }
+        }else{
+            if(IMC < 22.0){
+                console.log("medio");
+            }else{
+                console.log("alto");
+            }
+        }
+        
+    </script>
+</body>
+</html>
